@@ -26,3 +26,93 @@ will target the major web browsers as the initial platform.
 - MongoDb compass
 - Github
 
+# SOFTWARE REQUIREMENTS SPECIFICATION (SRS)
+# Online Food Ordering System 
+## Functional Requirement :
+### 1. User Side : 
+#### 1.1 Authentication : 
+Description :- If user is new to the system then First he/she 
+must sign up to the system otherwise user can directly 
+login and then enter to the system.
+#### 1.1.1: Sign Up
+Input: User details.
+Process: Validate details.
+Output: Redirect to home page.
+#### 1.1.2: Sign In
+Input: User details.
+Process: Validate details.
+Output: Redirect to Home page.
+#### 1.1.3: Log Out
+Input: User Selection.
+Output: Redirect to Home page.
+#### 1.2 Restaurant Details :
+Description : as per user selection system shows restaurant 
+details view .
+#### 1.2.1: Overview : 
+Input : User Selection .
+Output : Show Restaurant details .
+#### 1.2.2: Food Items :
+Input : User selection .
+7
+Output : List of food Items .
+#### 1.3 Manage Cart :
+Description : The Customer Can View Their Selected
+Food item And Can Add New food As Well As Delete The 
+food from cart
+#### 1.3.1: Add Food :
+Input : Select food .
+Output : Cart Will be updated (added food in cart ) .
+#### 1.3.1: Remove Food :
+Input : Select food .
+Output : Cart Will be updated (Remove food )
+#### 1.3.1: Place order :
+Description : Customer has to Select Address details 
+To Place order
+Input : Select Address .
+Output : Direct to the Payment page .
+#### 1.3 Manage Payment :
+Description : The Customer Can Pay With The many
+Modes Of Payment like Netbanking , through Cards , Upi , 
+wallet etc .
+#### 1.3.1: Payment using Net-banking:
+Input : Bank details.
+Process : Validate details
+Output : Confirmation Message.
+#### 1.3.2: Payment using Card :
+Input : Card-No, Expiry-Date, Card-Holder No , CVV.
+Process: Validate details
+Output : Confirmation Message.
+8
+#### 1.3.3: Payment using Upi :
+Input : Enter Upi-id.
+Process: Validate details
+Output : Confirmation Message.
+#### 1.3.4 Payment using Wallet :
+Input : Select a wallet.
+Process: Validate details
+Output : Confirmation Message.
+#### 1.3.5 Pay Later :
+Input : Select a method.
+Process: Validate details
+Output : Confirmation Message.
+#### 1.4. Manage Reviews :
+Description : Customers Can View As Well As Give The 
+Reviews And Ratings On The Quality Of Food .
+#### 1.4.1 Add Review :
+Input : Review And Rating
+Output : Confirmation
+#### 1.4.2 View Review :
+Output : View The Review .
+9
+# Non Functional Requirement :-
+N-1 Database :- A database should be there to store the data.
+N-2 Availability :- our system should be available at all times.
+N-3 System Independence :- our website should be platform independent. It 
+should work on all the platforms.
+N-4 device independence :- our website should work on all kinds of smart 
+devices.
+N-4 Privacy :- Personal data of the customers should not be disclosed to 
+anyone.
+N-5 Maintainability :- our system should work 24x7 and should be maintained 
+properly
+
