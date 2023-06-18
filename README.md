@@ -1,119 +1,27 @@
-# Abstract
-                                       
-  Our website is an online food ordering system that enables ease for the customers. It overcomes the disadvantages of the traditional queueing system.  Our proposed system is a medium to order online food hassle free from restaurants . This system improves the method of taking the order from customer. The online food ordering system sets up a food menu online and customers can easily place the order as per their wish. Also with a food menu. 
-  This system also provides a review system in which user can rate the food items and the delivery. Also, the proposed system can recommend hotels, food, based on the ratings given by the user, the hotel staff will be informed for the improvements along with the quality. The payment can be made online by upi, card, wallet
-  
-#  Introduction
-## About Project:
-Online food ordering system is a web-based restaurant
-management application with order booking functionality. It connects 
-clients, restaurants, and stylists in an online community allowing users to 
-browse restaurants, and food Order. User can see the overview of a 
-restaurants. Users can also give and read reviews of restaurants given by 
-other Users. User can also see menu photos and restaurant photos . 
-Our application includes Some of the major use cases user 
-account registration, login/logout, food ordering , view Orders ,manage 
-cart, give review of food orders at customer side and payment . 
-## Technology:
-My project uses MongoDB Atlas and Express-js to backend the 
-interface is created with React Framework as frontend. Online food 
-ordering system integrates AWS technology as a cloud storage for 
-Dynamic image upload, google map picker for view map , Google cloud 
-console for Google Authentication , razorpay for payment . This project 
-will target the major web browsers as the initial platform.
-## Tools:
-- Visual Studio Code (editor)
-- MongoDb compass
-- Github
 
-# SOFTWARE REQUIREMENTS SPECIFICATION (SRS)
-# Online Food Ordering System 
-## Functional Requirement :
-### 1. User Side : 
-#### 1.1 Authentication : 
-Description :- If user is new to the system then First he/she 
-must sign up to the system otherwise user can directly 
-login and then enter to the system.
-#### 1.1.1: Sign Up
-Input: User details.
-Process: Validate details.
-Output: Redirect to home page.
-#### 1.1.2: Sign In
-Input: User details.
-Process: Validate details.
-Output: Redirect to Home page.
-#### 1.1.3: Log Out
-Input: User Selection.
-Output: Redirect to Home page.
-#### 1.2 Restaurant Details :
-Description : as per user selection system shows restaurant 
-details view .
-#### 1.2.1: Overview : 
-Input : User Selection .
-Output : Show Restaurant details .
-#### 1.2.2: Food Items :
-Input : User selection .
-7
-Output : List of food Items .
-#### 1.3 Manage Cart :
-Description : The Customer Can View Their Selected
-Food item And Can Add New food As Well As Delete The 
-food from cart
-#### 1.3.1: Add Food :
-Input : Select food .
-Output : Cart Will be updated (added food in cart ) .
-#### 1.3.1: Remove Food :
-Input : Select food .
-Output : Cart Will be updated (Remove food )
-#### 1.3.1: Place order :
-Description : Customer has to Select Address details 
-To Place order
-Input : Select Address .
-Output : Direct to the Payment page .
-#### 1.3 Manage Payment :
-Description : The Customer Can Pay With The many
-Modes Of Payment like Netbanking , through Cards , Upi , 
-wallet etc .
-#### 1.3.1: Payment using Net-banking:
-Input : Bank details.
-Process : Validate details
-Output : Confirmation Message.
-#### 1.3.2: Payment using Card :
-Input : Card-No, Expiry-Date, Card-Holder No , CVV.
-Process: Validate details
-Output : Confirmation Message.
-8
-#### 1.3.3: Payment using Upi :
-Input : Enter Upi-id.
-Process: Validate details
-Output : Confirmation Message.
-#### 1.3.4 Payment using Wallet :
-Input : Select a wallet.
-Process: Validate details
-Output : Confirmation Message.
-#### 1.3.5 Pay Later :
-Input : Select a method.
-Process: Validate details
-Output : Confirmation Message.
-#### 1.4. Manage Reviews :
-Description : Customers Can View As Well As Give The 
-Reviews And Ratings On The Quality Of Food .
-#### 1.4.1 Add Review :
-Input : Review And Rating
-Output : Confirmation
-#### 1.4.2 View Review :
-Output : View The Review .
-9
-# Non Functional Requirement :-
-N-1 Database :- A database should be there to store the data.
-N-2 Availability :- our system should be available at all times.
-N-3 System Independence :- our website should be platform independent. It 
-should work on all the platforms.
-N-4 device independence :- our website should work on all kinds of smart 
-devices.
-N-4 Privacy :- Personal data of the customers should not be disclosed to 
-anyone.
-N-5 Maintainability :- our system should work 24x7 and should be maintained 
-properly
-
-![1](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/caa617e6-df87-48da-8c06-1bb267070b06)
+![1](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/c1075377-0c36-4d2c-8176-499731678fd1)
+![2](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/d0cdf649-6c0b-4d2f-a2ab-6672db5c36f1)
+![3](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/f326832c-9093-4445-9554-1d6fba9b1a0b)
+![4](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/8c2b7164-7766-4b28-a5fe-baeb16cf263c)
+![5](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/13422b52-c670-482a-a157-75041687ac06)
+![6](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/c2450507-93cb-4f96-ba29-1a6114ce1cb8)
+![7](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/883c1b2c-8767-43f7-ab62-74380b2350f4)
+![8](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/129373df-8e9f-45bb-8a73-4a8410069fb2)
+![9](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/aca694c7-8edd-4827-9d5a-51c6ab7e6c2d)
+![10](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/2f8430f5-a271-4430-a5a4-16bb975929b2)
+![11](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/68bc4e69-58c3-4def-9000-33d36a176ffa)
+![12](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/a1f709db-4f94-4e88-ac82-6f9efc852033)
+![13](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/87d94d53-08a3-42e5-b4db-c9f03bcc0d1d)
+![14](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/6f9901c9-1969-4859-9f45-d811e3e41cfc)
+![15](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/f18da616-d0c8-4ed9-86bc-045b8cd4846f)
+![16](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/e085dc94-ed37-44b8-8fea-d565b33f58bd)
+![17](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/e6cfe9f0-1441-4a5d-8592-9ae60346a6a8)
+![18](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/dcaf4f6c-20f0-45a9-a303-d9283a75a747)
+![19](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/eb3f2760-41eb-4749-a0f6-a86fbfd40633)
+![20](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/310f5865-5f65-475a-a78e-2201089e1b62)
+![21](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/4cc0dc90-cd28-468a-b5e3-915976dd1a17)
+![22](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/74872b74-ba97-4963-b4c3-3e639a8454a9)
+![23](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/cff98613-02b9-4251-acbc-1df799442c28)
+![24](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/e57d60fc-eccf-4b9f-9315-21a9de6679d2)
+![25](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/c1e2171e-6a14-4b8c-9a52-d9eae6f69849)
+![26](https://github.com/MaheshwariSurwase/zomato-clone-webproject/assets/97899505/4b394bb6-92c8-4e37-af23-6f4371677f0c)
